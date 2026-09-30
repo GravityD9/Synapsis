@@ -34,7 +34,7 @@ The pipeline is broken into three core phases:
     *   A frontend `Streamlit` application that simulates a live compliance monitor.
     *   Compares the extracted covenants against simulated live market data (e.g., current debt ratios) to instantly flag threshold breaches for Risk Committee escalation.
 
-## 🛠️ Tech Stack
+## Tech Stack
 *   **Backend / Logic:** Python 3, LangChain, Pydantic
 *   **AI / Embeddings:** OpenAI API (`gpt-4o-mini`, `text-embedding-3-small`)
 *   **Database:** ChromaDB (Local Vector Store)
