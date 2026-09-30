@@ -1,4 +1,4 @@
-# ⚡ Synapse Engine: Automated RAG for Regulatory Operations
+# Synapse Engine: Automated RAG for Regulatory Operations
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://synapsis.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
@@ -8,7 +8,7 @@
 
 Built specifically for Middle Office, Risk, and Regulatory Reporting workflows, this tool eliminates manual data entry, accelerates reporting timelines, and enforces strict audit-readiness by structuring legal text into rigid JSON formats.
 
-## 🎯 Business Value
+## Business Value
 In traditional compliance operations, manually extracting constraints like *Maximum Leverage Ratios* from 100-page credit agreements creates operational bottlenecks and increases the risk of human error. 
 
 The Synapse Engine solves this by:
@@ -16,7 +16,7 @@ The Synapse Engine solves this by:
 *   **Enforcing Control Frameworks:** Utilizes strict Pydantic schemas to ensure data is correctly typed and ready for downstream SQL databases or regulatory reports (Form PF, N-Port).
 *   **Maintaining Audit Trails:** Employs local Vector Databases (Chroma) to ensure every extracted metric can be traced back to the exact chunk of the original legal text.
 
-## 🧠 System Architecture
+## System Architecture
 
 The pipeline is broken into three core phases:
 
@@ -40,7 +40,7 @@ The pipeline is broken into three core phases:
 *   **Database:** ChromaDB (Local Vector Store)
 *   **Frontend:** Streamlit Community Cloud
 
-## 🚀 Run it Locally
+## Run it Locally
 
 To test the Synapse Engine on your local machine:
 
