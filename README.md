@@ -1,4 +1,4 @@
-#  Synapse Engine: Automated RAG for Regulatory Operations
+# ⚡ Synapse Engine: Automated RAG for Regulatory Operations
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://synapsis.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
@@ -46,5 +46,5 @@ To test the Synapse Engine on your local machine:
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/YourUsername/Synapsis.git](https://github.com/YourUsername/Synapsis.git)
+git clone https://github.com/GravityD9/Synapsis.git
 cd Synapsis
